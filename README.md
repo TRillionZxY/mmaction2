@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/resources/mmaction2_logo.png" width="500"/>
+  <img src="https://github.com/open-mmlab/mmaction2/raw/master/resources/mmaction2_logo.png" width="500"/>
 </div>
 
 ## Introduction
@@ -20,11 +20,11 @@ It is a part of the [OpenMMLab](http://openmmlab.org/) project.
 The master branch works with **PyTorch 1.3+**.
 
 <div align="center">
-  <img src="/resources/mmaction2_overview.gif" width="450px"/><br>
+  <img src="https://github.com/open-mmlab/mmaction2/raw/master/resources/mmaction2_overview.gif" width="450px"/><br>
     Action Recognition Results on Kinetics-400
 </div>
 <div align="center">
-  <img src="/resources/spatio-temporal-det.gif" width="800px"/><br>
+  <img src="https://github.com/open-mmlab/mmaction2/raw/master/resources/spatio-temporal-det.gif" width="800px"/><br>
     Spatio-Temporal Action Detection Results on AVA-2.1
 </div>
 <div align="center">
@@ -59,7 +59,7 @@ The master branch works with **PyTorch 1.3+**.
 
 ## Changelog
 
-v0.16.0 was released in 01/07/2021. Please refer to [changelog.md](docs/changelog.md) for details and release history.
+v0.18.0 was released in 02/09/2021. Please refer to [changelog.md](docs/changelog.md) for details and release history.
 
 ## Benchmark
 
@@ -133,6 +133,7 @@ Supported methods for Skeleton-based Action Recognition:
 <summary>(click to collapse)</summary>
 
 - ✅ [PoseC3D](configs/skeleton/posec3d/README.md) (ArXiv'2021)
+- ✅ [STGCN](configs/skeleton/stgcn/README.md) (AAAI'2018)
 
 </details>
 
@@ -257,6 +258,7 @@ We wish that the toolbox and benchmark could serve the growing research communit
 ## Projects in OpenMMLab
 
 - [MMCV](https://github.com/open-mmlab/mmcv): OpenMMLab foundational library for computer vision.
+- [MIM](https://github.com/open-mmlab/mim): MIM Installs OpenMMLab Packages.
 - [MMClassification](https://github.com/open-mmlab/mmclassification): OpenMMLab image classification toolbox and benchmark.
 - [MMDetection](https://github.com/open-mmlab/mmdetection): OpenMMLab detection toolbox and benchmark.
 - [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): OpenMMLab's next-generation platform for general 3D object detection.

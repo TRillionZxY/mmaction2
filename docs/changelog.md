@@ -1,6 +1,73 @@
 ## Changelog
 
-### Master
+### 0.18.0 (02/09/2021)
+
+**Improvement**
+
+- Add CopyRight ([#1099](https://github.com/open-mmlab/mmaction2/pull/1099))
+- Support NTU Pose Extraction ([#1076](https://github.com/open-mmlab/mmaction2/pull/1076))
+- Support Caching in RawFrameDecode ([#1078](https://github.com/open-mmlab/mmaction2/pull/1078))
+- Add citations & Support python3.9 CI & Use fixed-version sphinx ([#1125](https://github.com/open-mmlab/mmaction2/pull/1125))
+
+**Documentations**
+
+- Add Descriptions of PoseC3D dataset ([#1053](https://github.com/open-mmlab/mmaction2/pull/1053))
+
+**Bug and Typo Fixes**
+
+- Fix SSV2 checkpoints ([#1101](https://github.com/open-mmlab/mmaction2/pull/1101))
+- Fix CSN normalization ([#1116](https://github.com/open-mmlab/mmaction2/pull/1116))
+- Fix typo ([#1121](https://github.com/open-mmlab/mmaction2/pull/1121))
+- Fix new_crop_quadruple bug ([#1108](https://github.com/open-mmlab/mmaction2/pull/1108))
+
+### 0.17.0 (03/08/2021)
+
+**Highlights**
+
+- Support PyTorch 1.9
+- Support Pytorchvideo Transforms
+- Support PreciseBN
+
+**New Features**
+
+- Support Pytorchvideo Transforms ([#1008](https://github.com/open-mmlab/mmaction2/pull/1008))
+- Support PreciseBN ([#1038](https://github.com/open-mmlab/mmaction2/pull/1038))
+
+**Improvements**
+
+- Remove redundant augmentations in config files ([#996](https://github.com/open-mmlab/mmaction2/pull/996))
+- Make resource directory to hold common resource pictures ([#1011](https://github.com/open-mmlab/mmaction2/pull/1011))
+- Remove deperecated FrameSelector ([#1010](https://github.com/open-mmlab/mmaction2/pull/1010))
+- Support Concat Dataset ([#1000](https://github.com/open-mmlab/mmaction2/pull/1000))
+- Add `to-mp4` option to resize_videos.py ([#1021](https://github.com/open-mmlab/mmaction2/pull/1021))
+- Add option to keep tail frames ([#1050](https://github.com/open-mmlab/mmaction2/pull/1050))
+- Update MIM support ([#1061](https://github.com/open-mmlab/mmaction2/pull/1061))
+- Calculate Top-K accurate and inaccurate classes ([#1047](https://github.com/open-mmlab/mmaction2/pull/1047))
+
+**Bug and Typo Fixes**
+
+- Fix bug in PoseC3D demo ([#1009](https://github.com/open-mmlab/mmaction2/pull/1009))
+- Fix some problems in resize_videos.py ([#1012](https://github.com/open-mmlab/mmaction2/pull/1012))
+- Support torch1.9 ([#1015](https://github.com/open-mmlab/mmaction2/pull/1015))
+- Remove redundant code in CI ([#1046](https://github.com/open-mmlab/mmaction2/pull/1046))
+- Fix bug about persistent_workers ([#1044](https://github.com/open-mmlab/mmaction2/pull/1044))
+- Support TimeSformer feature extraction ([#1035](https://github.com/open-mmlab/mmaction2/pull/1035))
+- Fix ColorJitter ([#1025](https://github.com/open-mmlab/mmaction2/pull/1025))
+
+**ModelZoo**
+
+- Add TSM-R50 sthv1 models trained by PytorchVideo RandAugment and AugMix ([#1008](https://github.com/open-mmlab/mmaction2/pull/1008))
+- Update SlowOnly SthV1 checkpoints ([#1034](https://github.com/open-mmlab/mmaction2/pull/1034))
+- Add SlowOnly Kinetics400 checkpoints trained with Precise-BN ([#1038](https://github.com/open-mmlab/mmaction2/pull/1038))
+- Add CSN-R50 from scratch checkpoints ([#1045](https://github.com/open-mmlab/mmaction2/pull/1045))
+- TPN Kinetics-400 Checkpoints trained with the new ColorJitter ([#1025](https://github.com/open-mmlab/mmaction2/pull/1025))
+
+**Documentation**
+
+- Add Chinese translation of feature_extraction.md ([#1020](https://github.com/open-mmlab/mmaction2/pull/1020))
+- Fix the code snippet in getting_started.md ([#1023](https://github.com/open-mmlab/mmaction2/pull/1023))
+- Fix TANet config table ([#1028](https://github.com/open-mmlab/mmaction2/pull/1028))
+- Add description to PoseC3D dataset ([#1053](https://github.com/open-mmlab/mmaction2/pull/1053))
 
 ### 0.16.0 (01/07/2021)
 
